@@ -29,6 +29,14 @@ body {
   overflow-x: hidden !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 140px;
+}
+
 a {
   text-decoration: none;
   color: rgb(34, 34, 34);
@@ -111,15 +119,18 @@ p {
 .announcement-bar a:hover {
   text-decoration: underline;
 }
-*{
+
+* {
   cursor: none;
 }
+
 .cursor {
   position: fixed;
   left: 0;
   top: 0;
   pointer-events: none;
 }
+
 .cursor--small {
   width: 5px;
   height: 5px;
@@ -129,6 +140,7 @@ p {
   z-index: 11000;
   background: var(--th-color-2);
 }
+
 .cursor--canvas {
   width: 100vw;
   height: 100vh;
@@ -278,7 +290,7 @@ p {
 .nav-menu ul {
   display: flex;
   justify-content: center;
-  /* gap: 30px; */
+  gap: 30px;
   position: relative;
 }
 
@@ -440,6 +452,16 @@ p {
   /* padding: 10px; */
   transition: all 0.5s;
 }
+
+.nm-link {
+  width: auto !important;
+  white-space: nowrap !important;
+}
+
+.nm-item {
+  width: auto !important;
+}
+
 
 
 .nm-item .nm-link::after {
@@ -2804,8 +2826,8 @@ font-size: var(--th-h4-fs);
   padding: 40px 0px;
 }
 
-.case-about-second{
-  padding-bottom:40px !important;
+.case-about-second {
+  padding-bottom: 40px !important;
 }
 
 .case-visual-identity {
@@ -3436,13 +3458,16 @@ font-size: var(--th-h4-fs);
 .marquee.marquee-1 .d-flex {
   animation: marquee 40s linear infinite;
 }
+
 .marquee.marquee-2 .d-flex {
   animation: marquee 40s reverse linear infinite;
 }
+
 @keyframes marquee {
   0% {
     transform: translateX(0%);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -3503,9 +3528,11 @@ font-size: var(--th-h4-fs);
   margin-top: 20px;
   transition: all .5s;
 }
-.vision-box:hover{
+
+.vision-box:hover {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
 .vision-box.head img {
   max-width: 50px;
 }
@@ -3534,9 +3561,10 @@ font-size: var(--th-h4-fs);
 /* ------------- Our Vision Section End ------------- */
 
 /* 40.Our Marketing Solution Section Start ------------- */
-.marketing-solution{
+.marketing-solution {
   padding: 50px 0px;
 }
+
 .maso-box {
   border: 1px solid var(--th-color-Gray);
   padding: 40px 25px;
@@ -3547,10 +3575,12 @@ font-size: var(--th-h4-fs);
   margin-bottom: 30px;
   transition: all .5s;
 }
-.maso-box:hover{
+
+.maso-box:hover {
   background-color: black;
   color: #ffff;
 }
+
 .maso-box .m-img {
   max-width: 60px;
 }
@@ -3559,8 +3589,9 @@ font-size: var(--th-h4-fs);
   font-weight: 600;
   transition: all .5s;
 }
-.maso-box:hover .m-text h5{
-color: #fff;
+
+.maso-box:hover .m-text h5 {
+  color: #fff;
 }
 
 .maso-box .m-text p {
@@ -3568,6 +3599,7 @@ color: #fff;
   transition: all .5s;
 
 }
+
 .maso-box:hover .m-text p {
   color: white;
 }
@@ -3589,10 +3621,11 @@ color: #fff;
 
 .marketing-solution .row .col-lg-3.col-md-4.col-sm-6:nth-child(3) .maso-box,
 .marketing-solution .row .col-lg-3.col-md-4.col-sm-6:nth-child(7) .maso-box {
-position: relative;
-  top: 15% ;
+  position: relative;
+  top: 15%;
 }
-.m-text p{
+
+.m-text p {
   margin: 0;
 }
 
@@ -3607,78 +3640,97 @@ position: relative;
   border: 0.96px solid #000000;
   text-align: center;
 }
+
 .whths-img {
   max-width: 100px;
   margin: auto;
 }
+
 .whths-q {
   max-width: 80px;
 }
+
 .whths-title {
   text-align: center;
 }
+
 .whths-title h5 {
   font-family: var(--th-font-1);
   font-weight: 700;
   text-transform: capitalize;
 }
+
 .whths-title p {
   font-family: var(--th-font-1);
   font-weight: 400;
   margin-bottom: 0px;
 }
+
 .whths-body {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .whths-text p {
   font-family: var(--th-font-1);
   font-weight: 300;
 }
+
 .collaborate {
   padding-top: 150px;
   padding-bottom: 50px;
   /* margin-top: 100px; */
 }
+
 .collaborate-form {
   border: 0.97px solid #000000 !important;
   padding: 50px;
 }
+
 .collaborate-form h3 {
   font-family: var(--th-font-1);
   font-weight: 600;
   margin-bottom: 40px;
 }
-.collaborate-form .form-h{
+
+.collaborate-form .form-h {
   font-size: var(--th-p-fs);
   font-weight: 400;
   color: #717171;
   margin-bottom: 10px;
 }
+
 .collaborate-form .form-control,
 .collaborate-form .form-select {
   border-radius: 0px !important;
   border: none;
+  background-color: transparent;
   border-bottom: 0.97px solid #000000 !important;
   font-family: var(--th-font-1);
   font-weight: 400;
   color: #717171;
   padding: 10px;
 }
+
 .collaborate-form label {
   font-family: var(--th-font-1);
-font-weight: 400;
+  font-weight: 400;
 }
+
 .collaborate-form textarea.form-control {
   border: 0.97px solid #000000 !important;
 }
+
 .form-icon {
   position: relative;
 }
+
 .form-icon .form-control {
   padding-left: 27px;
+  background-color: transparent;
 }
+
 .form-icon i {
   position: absolute;
   top: 50%;
@@ -3686,7 +3738,8 @@ font-weight: 400;
   transform: translateY(-50%);
   color: #717171;
 }
-.collaborate-form button{
+
+.collaborate-form button {
   padding: 10px 40px;
   font-family: var(--th-font-1);
   border: none;
@@ -3696,8 +3749,42 @@ font-weight: 400;
   transition: all .5s;
 }
 
-.collaborate-form button:hover{
+.collaborate-form button:hover {
   color: var(--th-color-2);
   background-color: transparent;
   border: 1px solid var(--th-color-1);
+}
+
+
+/* 1. Make the track a flex container */
+.slick-track {
+  display: flex !important;
+}
+
+/* 2. Make each slide stretch to full height */
+.slick-slide {
+  height: auto !important;
+  display: flex !important;
+}
+
+/* 3. Ensure the internal wrapper (Slick adds a div) also stretches */
+.slick-slide>div {
+  display: flex;
+  flex: 1;
+}
+
+/* 4. Make the box itself fill the available height */
+.whths-box {
+  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 5. Optional: Push the bottom content down if needed */
+.whths-text {
+  flex: 1;
+}
+
+.brand-logo {
+  background-color: #ffffff;
 }
