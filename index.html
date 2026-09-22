@@ -48,7 +48,7 @@
     <link rel="Icon" href="image/favicon.png">
 
     <!-- Meta Tag  -->
-    <meta name="title" content="Digital Marketing Agency in Delhi | MediaX – SEO, Ads & Branding" />
+    <meta name="title" content="Digital Marketing Agency in Delhi | MediaX - SEO, Ads & Branding" />
     <meta name="description"
         content="Looking for a top digital marketing agency in Delhi? MediaX delivers SEO, Google Ads, social media, branding & web development for Delhi NCR businesses. 250+ clients. Free consultation." />
     <link rel="canonical" href="https://mediax.co.in/digital-marketing-agency-delhi/">
@@ -59,7 +59,7 @@
     <meta name="language" content="English" />
 
     <!-- Social Share -->
-    <meta property="og:title" content="Digital Marketing Agency in Delhi | MediaX – SEO, Ads & Branding" />
+    <meta property="og:title" content="Digital Marketing Agency in Delhi | MediaX - SEO, Ads & Branding" />
     <meta property="og:description"
         content="Looking for a top digital marketing agency in Delhi? MediaX delivers SEO, Google Ads, social media, branding & web development for Delhi NCR businesses. 250+ clients. Free consultation." />
     <meta property="og:url" content="https://mediax.co.in/digital-marketing-agency-delhi/" />
@@ -118,7 +118,7 @@
         }
 
         .why-section {
-            padding: 80px 0;
+            padding: 0px 0 80px 0;
             position: relative;
             overflow: hidden;
         }
@@ -267,55 +267,163 @@
             .section-title {
                 font-size: 1.8rem;
             }
+
+            .why-section {
+                padding: 0px 0 40px 0;
+            }
         }
     </style>
 
 
-    <!-- LocalBusiness / MarketingAgency schema — matches live GMB listing exactly -->
+    <!-- Organization Schema -->
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MarketingAgency",
-  "name": "MediaX",
-  "image": "https://mediax.co.in/image/logo-share.jpg",
-  "url": "https://mediax.co.in/digital-marketing-agency-delhi/",
-  "telephone": "+91-9760273375",
-  "priceRange": "₹₹",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "1st Floor, 416, Shahpur Jat, Siri Fort",
-    "addressLocality": "New Delhi",
-    "addressRegion": "DL",
-    "postalCode": "110049",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "28.5567",
-    "longitude": "77.2157"
-  },
-  "areaServed": ["Delhi", "New Delhi", "Gurugram", "Noida", "Ghaziabad", "Faridabad"],
-  "openingHoursSpecification": [
     {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "09:00",
-      "closes": "18:00"
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://mediax.co.in/#organization",
+      "name": "MediaX",
+      "legalName": "MediaX Integrated Communications Agency",
+      "url": "https://mediax.co.in/",
+      "logo": "https://mediax.co.in/image/logo-share.jpg",
+      "telephone": "+91-9760273375",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9760273375",
+        "contactType": "sales",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi"]
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/mediax",
+        "https://www.instagram.com/mediaxindia",
+        "https://www.instagram.com/mediaxooh/",
+        "https://click.mediax.co.in/"
+      ]
     }
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "41"
-  },
-  "sameAs": [
-    "https://www.linkedin.com/company/mediax",
-    "https://www.instagram.com/mediaxindia",
-    "https://www.instagram.com/mediaxooh/",
-    "https://click.mediax.co.in/"
-  ]
-}
-</script>
+    </script>
+
+    <!-- LocalBusiness / MarketingAgency Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MarketingAgency",
+      "@id": "https://mediax.co.in/digital-marketing-agency-delhi/#localbusiness",
+      "name": "MediaX - Digital Marketing Agency in Delhi",
+      "image": "https://mediax.co.in/image/logo-share.jpg",
+      "url": "https://mediax.co.in/digital-marketing-agency-delhi/",
+      "telephone": "+91-9760273375",
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1st Floor, 416, Shahpur Jat, Siri Fort",
+        "addressLocality": "New Delhi",
+        "addressRegion": "DL",
+        "postalCode": "110049",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "28.5567",
+        "longitude": "77.2157"
+      },
+      "areaServed": ["Delhi", "New Delhi", "Gurugram", "Noida", "Ghaziabad", "Faridabad"],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/mediax",
+        "https://www.instagram.com/mediaxindia",
+        "https://www.instagram.com/mediaxooh/",
+        "https://click.mediax.co.in/"
+      ]
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mediax.co.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Digital Marketing Agency in Delhi",
+          "item": "https://mediax.co.in/digital-marketing-agency-delhi/"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Service Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Digital Marketing Services",
+      "provider": {
+        "@type": "MarketingAgency",
+        "name": "MediaX",
+        "url": "https://mediax.co.in/"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "Delhi NCR"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Digital Marketing Solutions",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Search Engine Optimization (SEO)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Google Ads & PPC Advertising"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Social Media Marketing (SMM)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand Identity & Creative Design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website Development & UI/UX"
+            }
+          }
+        ]
+      }
+    }
+    </script>
 
 
 </head>
@@ -449,7 +557,7 @@
 
             <div class="container position-relative">
                 <!-- Header -->
-                <div class="text-center mb-5" style="max-width: 700px; margin: 0 auto;">
+                <div class="text-center mb-1" style="max-width: 700px; margin: 0 auto;">
                     <!-- <span class="section-badge">Why MediaX</span> -->
                     <h2 class="section-title">
                         <span class="text-gradient">Why MediaX?</span>
@@ -1304,7 +1412,7 @@
                                 <div class="ouw-h">
                                     <h4>Spanish With Mrityunjay</h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project/SWM/image.webp" alt=""></div>
+                                <div class="ouw-img"><img src="image/project/SWM/image.webp" alt="Spanish With Mrityunjay Case Study" loading="lazy"></div>
                                 <div class="ouw-text">
                                     <div class="">
                                         <p>Designing a heist-inspired brand identity for Delhi's pioneering language
@@ -1341,9 +1449,9 @@
         <section class="we-also-do">
             <div class="container-xxl">
                 <div class="row align-items-center" data-aos="fade-right">
-                    <div class="col-8">
+                    <div class="col-12 col-md-8">
                         <div class="main-h">
-                            <h2 class="m-0">A Network of Companies, One Team</h2>
+                            <h2 class="mb-2">A Network of Companies, One Team</h2>
                             <p class="m-0">MediaX isn't a single agency. It's a network of specialised companies working
                                 together under one roof</p>
                         </div>
@@ -1365,13 +1473,65 @@
                 <div class="wead-carousel-outer" data-aos="fade-up">
                     <div class="wead-carousel-track" id="weadTrack">
 
-                        <!-- Card 1 -->
+                        <!-- Card 1: Happening In -->
+                        <div class="wead-carousel-slide">
+                            <div class="wead-box">
+                                <a href="https://www.instagram.com/happeningin.official" target="_blank">
+                                    <div class="wead-img"><img src="image/wead-2-new.jpeg" alt="Happening In" loading="lazy"
+                                            class="w-100"></div>
+                                    <div class="wead-text">
+                                        <h3>Happening In</h3>
+                                        <p>Happening in offers a premier city and entertainment guide featuring
+                                            carefully
+                                            selected recommendations for exploring your city, uncovering hidden gems,
+                                            and
+                                            staying informed with the latest buzz.
+                                        </p>
+                                        <div class="d-flex">
+                                            <div class="th-btn-n">
+                                                <div class="th-img th-img-1"><img src="image/main-arrow.webp"
+                                                        class="w-100" alt=""></div>
+                                                <div class="th-text">Learn More</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: MediaX OOH -->
+                        <div class="wead-carousel-slide">
+                            <div class="wead-box">
+                                <a href="https://www.instagram.com/mediaxooh/" target="_blank">
+                                    <div class="wead-img"><img src="image/wead-1-new.jpeg" alt="MediaX OOH" loading="lazy"
+                                            class="w-100"></div>
+                                    <div class="wead-text">
+                                        <h3>MediaX OOH</h3>
+                                        <p>At MediaX, we specialize in Out-of-Home (OOH) advertising, delivering
+                                            innovative
+                                            campaigns that captivate audiences and leave a lasting impression. Through
+                                            strategic placements and creative concepts.
+                                        </p>
+                                        <div class="d-flex">
+                                            <div class="th-btn-n">
+                                                <div class="th-img th-img-1"><img src="image/main-arrow.webp"
+                                                        class="w-100" alt=""></div>
+                                                <div class="th-text">Learn More</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: MediaX Click -->
                         <div class="wead-carousel-slide">
                             <div class="wead-box">
                                 <a href="https://click.mediax.co.in/" target="_blank">
-                                    <div class="wead-img"><img src="image/wead-4-new.jpeg" alt="" class="w-100"></div>
+                                    <div class="wead-img"><img src="image/wead-4-new.jpeg" alt="MediaX Click" loading="lazy"
+                                            class="w-100"></div>
                                     <div class="wead-text">
-                                        <h3 style="font-size: 35px;">MediaX Click</h3>
+                                        <h3>MediaX Click</h3>
                                         <p>MediaX Click is a creative production studio for brands and creators,
                                             offering
                                             premium spaces, curated sets, and end-to-end production support for
@@ -1379,24 +1539,23 @@
                                             podcasts, shoots, and content creation.
                                         </p>
                                         <div class="d-flex">
-                                            <a href="https://click.mediax.co.in/" target="_blank" class="th-btn-n">
+                                            <div class="th-btn-n">
                                                 <div class="th-img th-img-1"><img src="image/main-arrow.webp"
                                                         class="w-100" alt=""></div>
                                                 <div class="th-text">Learn More</div>
-                                                <div class="th-img th-img-2"><img src="image/main-arrow.webp"
-                                                        class="w-100" alt=""></div>
-                                            </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                         </div>
 
-                        <!-- Card 2 -->
+                        <!-- Card 4: MediaX Performance+ -->
                         <div class="wead-carousel-slide">
                             <div class="wead-box">
                                 <a href="https://performanceplus.mediax.co.in/" target="_blank">
-                                    <div class="wead-img"><img src="image/wead-5-new.jpeg" alt="" class="w-100"></div>
+                                    <div class="wead-img"><img src="image/wead-5-new.jpeg" alt="MediaX Performance+" loading="lazy"
+                                            class="w-100"></div>
                                     <div class="wead-text">
                                         <h3 style="font-size: 35px;">MediaX Performance<sup>+</sup></h3>
                                         <p>MediaX Performance<sup>+</sup> is our performance marketing division that
@@ -1405,69 +1564,11 @@
                                             measurable growth strategies.
                                         </p>
                                         <div class="d-flex">
-                                            <a href="https://performanceplus.mediax.co.in/" target="_blank"
-                                                class="th-btn-n">
+                                            <div class="th-btn-n">
                                                 <div class="th-img th-img-1"><img src="image/main-arrow.webp"
                                                         class="w-100" alt=""></div>
                                                 <div class="th-text">Learn More</div>
-                                                <div class="th-img th-img-2"><img src="image/main-arrow.webp"
-                                                        class="w-100" alt=""></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Card 3 -->
-                        <div class="wead-carousel-slide">
-                            <div class="wead-box">
-                                <a href="https://www.instagram.com/happeningin.official" target="_blank">
-                                    <div class="wead-img"><img src="image/wead-2-new.jpeg" alt="" class="w-100"></div>
-                                    <div class="wead-text">
-                                        <h3 style="font-size: 35px;">Happening In</h3>
-                                        <p>Happening in offers a premier city and entertainment guide featuring
-                                            carefully
-                                            selected recommendations for exploring your city, uncovering hidden gems,
-                                            and
-                                            staying informed with the latest buzz.
-                                        </p>
-                                        <div class="d-flex">
-                                            <a href="https://www.instagram.com/happeningin.official" target="_blank"
-                                                class="th-btn-n">
-                                                <div class="th-img th-img-1"><img src="image/main-arrow.webp"
-                                                        class="w-100" alt=""></div>
-                                                <div class="th-text">Learn More</div>
-                                                <div class="th-img th-img-2"><img src="image/main-arrow.webp"
-                                                        class="w-100" alt=""></div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Card 4 -->
-                        <div class="wead-carousel-slide">
-                            <div class="wead-box">
-                                <a href="https://www.instagram.com/mediaxooh/" target="_blank">
-                                    <div class="wead-img"><img src="image/wead-1-new.jpeg" alt="" class="w-100"></div>
-                                    <div class="wead-text">
-                                        <h3 style="font-size: 35px;">MediaX OOH</h3>
-                                        <p>At MediaX, we specialize in Out-of-Home (OOH) advertising, delivering
-                                            innovative
-                                            campaigns that captivate audiences and leave a lasting impression. Through
-                                            strategic placements and creative concepts.
-                                        </p>
-                                        <div class="d-flex">
-                                            <a href="https://www.instagram.com/mediaxooh/" target="_blank"
-                                                class="th-btn-n">
-                                                <div class="th-img th-img-1"><img src="image/main-arrow.webp"
-                                                        class="w-100" alt=""></div>
-                                                <div class="th-text">Learn More</div>
-                                                <div class="th-img th-img-2"><img src="image/main-arrow.webp"
-                                                        class="w-100" alt=""></div>
-                                            </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </a>

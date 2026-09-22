@@ -986,8 +986,10 @@
     }
 
     .wead-box .wead-text {
-        min-height: 265px;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
     }
 
     .hero-banner .hb-box:nth-child(1),
@@ -1100,7 +1102,7 @@
     }
 
     .wead-box .wead-img img {
-        height: 250px;
+        height: 210px;
         object-fit: cover;
     }
 

@@ -2211,151 +2211,92 @@ font-size: var(--th-h4-fs);
   transform: rotateY(-180deg);
 } */
 
-/* Carousel layout */
+/* ------------- We Also do Section End ------------- */
+
+/* --- Our Companies Carousel --- */
 .wead-carousel-outer {
   overflow: hidden;
-  position: relative;
   width: 100%;
 }
 
 .wead-carousel-track {
   display: flex;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: transform;
 }
 
 .wead-carousel-slide {
   flex: 0 0 calc(100% / 3);
-  max-width: calc(100% / 3);
-  padding: 0 10px;
+  min-width: calc(100% / 3);
+  padding: 8px;
   box-sizing: border-box;
 }
 
-.wead-carousel-btn {
-  background: transparent;
-  border: 1px solid var(--th-color-2);
-  border-radius: 50%;
-  width: 52px;
-  height: 52px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  transition: background 0.3s, border-color 0.3s;
-}
-
-.wead-carousel-btn:hover {
-  background: var(--th-color-1);
-  border-color: var(--th-color-1);
-}
-
-.wead-carousel-btn img {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-}
-
-.wead-box a {
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.wead-box .th-btn-n {
-  border: 1px solid #ccc;
-  background: transparent;
-  padding: 5px;
-  padding-right: 16px;
-  gap: 8px;
-  border-radius: 40px;
-  overflow: visible;
-  transition: all 0.3s ease;
-}
-
-.wead-box .th-btn-n .th-img {
-  width: 36px;
-  height: 36px;
-  min-width: 36px;
-  max-width: 36px;
-  background-color: var(--th-color-1);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-.wead-box .th-btn-n .th-img img {
-  width: 16px;
-  height: 16px;
-  filter: brightness(0) invert(1);
-}
-
-.wead-box .th-btn-n .th-img-2 {
-  position: static;
-  transform: none;
-  display: none;
-}
-
-.wead-box .th-btn-n .th-text {
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--th-color-2);
-  transform: none !important;
-}
-
-.wead-box .th-btn-n:hover {
-  background: transparent;
-  border-color: var(--th-color-1);
-}
-
-.wead-box .th-btn-n:hover .th-text {
-  color: var(--th-color-1);
-  transform: none !important;
-}
-
-.wead-box .th-btn-n:hover .th-img-1 {
-  transform: none !important;
-  background-color: var(--th-color-2);
-}
-
-.wead-box .wead-text p {
-  font-size: 15px;
-  line-height: 1.6;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-/* Responsive: 2 slides on tablet */
 @media (max-width: 991px) {
   .wead-carousel-slide {
     flex: 0 0 50%;
-    max-width: 50%;
+    min-width: 50%;
   }
 }
 
-/* Responsive: 1 slide on mobile */
 @media (max-width: 575px) {
   .wead-carousel-slide {
     flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .we-also-do .col-8 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .we-also-do .col-4 {
-    flex: 0 0 100%;
-    max-width: 100%;
+    min-width: 100%;
   }
 }
 
-/* ------------- We Also do Section End ------------- */
+.wead-carousel-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  line-height: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  opacity: 1;
+}
+
+.wead-carousel-btn:hover {
+  transform: scale(1.1);
+}
+
+.wead-carousel-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.wead-carousel-btn img {
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.wead-carousel-btn:hover img {
+  filter: brightness(0.82);
+}
+
+.wead-carousel-btn:disabled img {
+  filter: grayscale(0.4) opacity(0.4);
+}
+
+/* --- End Our Companies Carousel --- */
+
+/* Hide slick dots on mobile for Our Companies section */
+@media (max-width: 575px) {
+  .we-also-do .slick-dots {
+    display: none !important;
+  }
+}
+
+/* Our Companies – mobile card styles */
+@media screen and (max-width: 768px) {
+  .wead-box {
+    height: auto !important;
+  }
+
+  .wead-box h3 {
+    font-size: 25px !important;
+  }
+}
 
 /* 24. Testimonial Section Start ------------- */
 .tes-box {
