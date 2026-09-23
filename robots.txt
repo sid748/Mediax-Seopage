@@ -1,7 +1,9 @@
+# robots.txt for MediaX (https://mediax.co.in)
+
 User-agent: *
 Allow: /
 
-# AI Crawlers & LLM Search Bots
+# Explicit Allow Rules for AI Crawlers & LLM Search Agents
 User-agent: GPTBot
 Allow: /
 
@@ -26,4 +28,5 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+# Sitemap Location
 Sitemap: https://mediax.co.in/sitemap.xml

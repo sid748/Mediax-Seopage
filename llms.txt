@@ -1,31 +1,40 @@
 # MediaX
 
-> Full-service digital marketing agency in Delhi NCR delivering SEO, Google Ads (PPC), social media marketing, branding, video production, and performance marketing.
-
-## About MediaX
-MediaX is an integrated digital marketing and creative agency with 8+ years of industry experience and 250+ clients served across India and internationally. Operating from Shahpur Jat, New Delhi, MediaX works as a specialized network of companies under one roof:
-- MediaX OOH (Out-of-Home advertising)
-- MediaX Click (Creative production studio & podcast sets)
-- MediaX Performance+ (Data-driven performance marketing)
+> MediaX is a leading integrated digital marketing, creative, and performance agency based in Delhi NCR, India. With 8+ years of industry experience and 250+ clients served, MediaX operates as a unified network of specialised companies delivering full-funnel marketing solutions, brand identity, performance advertising, OOH, and creative production.
 
 ## Core Services
-- [SEO Services](https://mediax.co.in/digital-marketing-agency-delhi/): Technical SEO, Local SEO for Delhi NCR businesses, on-page optimization, content marketing, and white-hat link building.
-- [Google Ads & PPC](https://mediax.co.in/digital-marketing-agency-delhi/): High-intent search campaigns, display ads, shopping ads, and conversion rate optimization (CRO).
-- [Social Media Marketing](https://mediax.co.in/digital-marketing-agency-delhi/): Organic brand growth, viral content strategy, paid social ads (Meta, LinkedIn, Instagram), and influencer partnerships.
-- [Creative & Branding](https://mediax.co.in/creative-n-branding.html): Brand identity design, corporate decks, logos, and packaging.
-- [Film & Photography](https://mediax.co.in/film-n-photography.html): Commercial video shoots, brand films, product photography, and podcast sets.
-- [Web & AR Development](https://mediax.co.in/website-n-ar.html): High-speed custom web development, landing pages, and interactive augmented reality.
-- [Out-of-Home (OOH)](https://mediax.co.in/outside-of-home.html): Strategic outdoor advertising, prime hoarding placements, and transit media across Delhi NCR.
 
-## Key URLs
-- [Homepage](https://mediax.co.in/)
-- [Delhi Digital Marketing Landing Page](https://mediax.co.in/digital-marketing-agency-delhi/)
-- [Our Solutions](https://mediax.co.in/solutions.html)
-- [Case Studies & Portfolio](https://mediax.co.in/project.html)
-- [MediaX Click Studio](https://click.mediax.co.in/)
-- [MediaX Performance+](https://performanceplus.mediax.co.in/)
+- **Digital Marketing & Strategy**: Full-funnel digital strategy, lead generation, and omnichannel growth marketing for D2C, B2B, healthcare, education, retail, and corporate brands.
+- **Search Engine Optimization (SEO)**: Local Delhi SEO, technical SEO audits, enterprise SEO, e-commerce optimization, and AI search visibility (GEO/AEO).
+- **Google Ads & Performance Marketing (PPC)**: High-ROI paid search, shopping ads, Meta advertising (Facebook & Instagram Ads), conversion rate optimization (CRO), and data-driven scaling.
+- **Creative & Brand Identity**: Brand guidelines, logo design, heist-inspired and contemporary visual identities, packaging, and brand positioning.
+- **Social Media Marketing (SMM)**: Social media strategy, content creation, community management, viral reels, and influencer campaigns.
+- **Website Design & UI/UX Development**: Modern high-converting websites, Shopify e-commerce stores, custom web apps, and interactive digital experiences.
+- **Film, Photography & Production**: High-production brand films, commercial shoots, podcast recording, and studio production.
+- **Out-of-Home (OOH) Advertising**: Strategic billboard placements, ambient advertising, transit media, and high-impact physical activations across Delhi NCR and pan-India.
 
-## Contact & Location
-- Address: 1st Floor, 416, Shahpur Jat, Siri Fort, New Delhi, Delhi 110049, India
-- Phone: +91-9760273375
-- Official Website: https://mediax.co.in/
+## Network of Specialised Companies
+
+- **MediaX Performance+**: Specialized performance marketing division focused on data-driven advertising, conversion optimization, and measurable revenue growth (https://performanceplus.mediax.co.in/).
+- **Happening In**: Premier city and entertainment discovery guide uncovering local food, lifestyle, events, and viral cultural trends (https://www.instagram.com/happeningin.official).
+- **MediaX OOH**: Out-of-Home advertising and strategic brand presence across prime metropolitan locations (https://www.instagram.com/mediaxooh/).
+- **MediaX Click**: Creative production studio offering curated sets, podcast studios, and end-to-end shoot support for brands and content creators (https://click.mediax.co.in/).
+
+## Office Location & Contact Information
+
+- **Address**: 1st Floor, 416, Shahpur Jat, Siri Fort, New Delhi, Delhi 110049, India
+- **Phone**: +91-9760273375
+- **Email**: yash@mediax.co.in
+- **Website**: https://mediax.co.in/
+- **Working Hours**: Monday – Friday, 09:00 AM – 06:00 PM IST
+
+## Key Pages & Resources
+
+- [MediaX Homepage](https://mediax.co.in/): Overview of MediaX integrated agency solutions and company overview.
+- [Digital Marketing Agency in Delhi](https://mediax.co.in/digital-marketing-agency-delhi/): Dedicated Delhi NCR landing page for local SEO, Google Ads, social media marketing, and branding services.
+- [Connect & Free Consultation](https://mediax.co.in/connect.html): Book a free digital marketing consultation and project discovery call.
+- [Mia by Tanishq Case Study](https://mediax.co.in/mia-by-tanishq-case-study.html): How MediaX reached 955,446 individuals in 30 days for Mia by Tanishq.
+- [BTW Case Study](https://mediax.co.in/btw-case-study.html): How BTW reached 175,000+ individuals at ₹0.25 CPR.
+- [M.R. Warerkar & Associates Case Study](https://mediax.co.in/mrw-case-study.html): Modern digital brand and web experience for India's premier architecture & engineering firm.
+- [Gaupalam Vedic Case Study](https://mediax.co.in/gaupalam-vedic-case-study.html): E-commerce growth and brand development case study.
+- [Spanish With Mrityunjay Case Study](https://mediax.co.in/swm-case-study.html): Brand identity design and digital outreach campaign.
