@@ -28,7 +28,7 @@
         fbq('init', '1135630991007502');
         fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
+    <noscript><img loading="lazy" height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=1135630991007502&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
     <!-- Clarity tracking code start-->
@@ -63,7 +63,11 @@
     <meta property="og:description"
         content="Looking for a top digital marketing agency in Delhi? MediaX delivers SEO, Google Ads, social media, branding & web development for Delhi NCR businesses. 250+ clients. Free consultation." />
     <meta property="og:url" content="https://mediax.co.in/digital-marketing-agency-delhi/" />
-    <meta property="og:image" content="https://mediax.co.in/image/logo-share.jpg" />
+    <meta property="og:image" content="https://mediax.co.in/image/share/mediax-india-gate.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Leading Marketing Agency In Delhi | MediaX" />
+    <meta name="twitter:description" content="Looking for a top digital marketing agency in Delhi? MediaX delivers SEO, Google Ads, social media, branding & web development for Delhi NCR businesses. 250+ clients. Free consultation." />
+    <meta name="twitter:image" content="https://mediax.co.in/image/share/mediax-india-gate.png" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="MediaX" />
 
@@ -109,7 +113,7 @@
         }
 
         body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-family: var(--th-font-1);
             background-color: var(--background);
         }
 
@@ -521,6 +525,63 @@
       ]
     }
     </script>
+    <!-- FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What digital marketing services does MediaX provide in Delhi NCR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MediaX delivers complete full-funnel digital marketing services from our Delhi headquarters. This includes Search Engine Optimization (SEO), Google Ads & Performance Marketing (PPC), Social Media Marketing & Content Creation (SMM), Brand Identity & Graphic Design, Website Development & UI/UX, and Out-of-Home (OOH) Advertising across Delhi NCR and pan-India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is the MediaX Delhi office located? Can we meet in person?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, absolutely! Our Delhi office is located at 1st Floor, 416, Shahpur Jat, Siri Fort, New Delhi, Delhi 110049. We welcome brand founders, marketing heads, and entrepreneurs for in-person strategy sessions, discovery calls, and project reviews."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see measurable results from SEO & Ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For paid performance advertising (Google Ads & Meta Ads), campaigns begin generating qualified leads and sales within the first 1–2 weeks of launch. For organic SEO, measurable ranking climbs and substantial organic traffic gains typically compound over 3 to 6 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes MediaX different from other digital marketing agencies in Delhi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Unlike traditional agencies that outsource or operate in silos, MediaX operates as an integrated ecosystem of specialised in-house teams—creative studio, performance media buyers, web engineers, and OOH specialists—all under one roof. With 8+ years of experience and 250+ brands served (including Mia by Tanishq, BTW, and Granotone), we focus on real commercial ROI rather than vanity metrics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the pricing structure or budget needed to work with MediaX?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We design customized engagement plans based on your brand's growth stage, objectives, and channel scope. Whether you are an early-stage startup looking for high-intent lead generation or an established enterprise seeking full-funnel expansion, we have flexible retainer and project-based structures. Book a free consultation to receive a tailored proposal."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does MediaX track and report campaign ROI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide weekly reporting sprints and 24/7 transparent live dashboards tracking Cost Per Lead (CPL), Customer Acquisition Cost (CAC), Return on Ad Spend (ROAS), keyword rankings, and organic conversion funnels. You will also have a dedicated account manager for direct communication."
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body id="home-page">
@@ -541,7 +602,7 @@
                     <!-- <span class="section-badge text-center">Digital Marketing Agency in Delhi</span> -->
                     <h3><span style="text-transform: none;">MediaX:</span>
                         <span class="red"> The Leading Delhi Marketing Agency <br>for
-                            Local & National Brands</span> <img src="image/pfm/wheel.png"
+                            Local & National Brands</span> <img loading="lazy" src="image/pfm/wheel.png"
                             alt="MediaX digital marketing wheel icon">
                     </h3>
                     <p class="text-center mt-3"> With the presence of our office in Delhi and 8+
@@ -560,7 +621,7 @@
                 </div>
             </div>
             <div class="pfm-container">
-                <img src="image/pfm/hero-img-new.png"
+                <img src="image/pfm/hero-img-new.png" fetchpriority="high"
                     alt="MediaX digital marketing agency team in Delhi providing SEO, ads and branding services">
                 <div class="marquee marquee-1 mb-4">
                     <div class="d-flex align-items-center">
@@ -755,32 +816,32 @@
         <section class="brand-logo" id="our-clients" data-aos="fade-up">
             <div class="container-xxl">
                 <div class="brand-slider">
-                    <div class="brs-img"><img src="image/pfm/brand/brand-1.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-2.png" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-3.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-4.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-5.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-6.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-7.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-8.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-9.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-1.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-2.png" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-3.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-4.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-5.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-6.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-7.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-8.webp" class="w-100"></div>
-                    <div class="brs-img"><img src="image/pfm/brand/brand-9.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-1.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-2.png" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-3.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-4.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-5.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-6.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-7.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-8.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-9.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-1.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-2.png" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-3.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-4.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-5.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-6.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-7.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-8.webp" class="w-100"></div>
+                    <div class="brs-img"><img loading="lazy" src="image/pfm/brand/brand-9.webp" class="w-100"></div>
 
                 </div>
                 <!-- <div class="row justify-content-evenly">
-                    <div class="col-6 col-md-4 col-lg-2 brs-img"><img src="../image/pfm/brand/brand-1.png" class="w-100"></div>
-                    <div class="col-6 col-md-4 col-lg-2 brs-img"><img src="../image/pfm/brand/brand-2.png" class="w-100"></div>
-                    <div class="col-6 col-md-4 col-lg-2 brs-img"><img src="../image/pfm/brand/brand-3.png" class="w-100"></div>
-                    <div class="col-6 col-md-4 col-lg-2 brs-img"><img src="../image/pfm/brand/brand-4.png" class="w-100"></div>
-                    <div class="col-6 col-md-4 col-lg-2 brs-img"><img src="../image/pfm/brand/brand-5.png" class="w-100"></div>
+                    <div class="col-6 col-md-4 col-lg-2 brs-img"><img loading="lazy" src="../image/pfm/brand/brand-1.png" class="w-100"></div>
+                    <div class="col-6 col-md-4 col-lg-2 brs-img"><img loading="lazy" src="../image/pfm/brand/brand-2.png" class="w-100"></div>
+                    <div class="col-6 col-md-4 col-lg-2 brs-img"><img loading="lazy" src="../image/pfm/brand/brand-3.png" class="w-100"></div>
+                    <div class="col-6 col-md-4 col-lg-2 brs-img"><img loading="lazy" src="../image/pfm/brand/brand-4.png" class="w-100"></div>
+                    <div class="col-6 col-md-4 col-lg-2 brs-img"><img loading="lazy" src="../image/pfm/brand/brand-5.png" class="w-100"></div>
                 </div> -->
             </div>
         </section>
@@ -798,7 +859,7 @@
                 <div class="row d-flex d-sm-none">
                     <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/marketing-1.png"
+                            <div class="m-img"><img loading="lazy" src="image/pfm/marketing-1.png"
                                     alt="SEO services in Delhi by MediaX" class="w-100"></div>
                             <div class="m-text">
                                 <h5>SEO</h5>
@@ -809,7 +870,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/marketing-2.png"
+                            <div class="m-img"><img loading="lazy" src="image/pfm/marketing-2.png"
                                     alt="Lead generation and PPC campaigns Delhi" class="w-100"></div>
                             <div class="m-text">
                                 <h5>Lead Generation</h5>
@@ -819,7 +880,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/marketing-3.png"
+                            <div class="m-img"><img loading="lazy" src="image/pfm/marketing-3.png"
                                     alt="Content marketing services Delhi" class="w-100"></div>
                             <div class="m-text">
                                 <h5>Content</h5>
@@ -831,7 +892,7 @@
 
                     <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/web-programming.png"
+                            <div class="m-img"><img loading="lazy" src="image/pfm/web-programming.png"
                                     alt="Website development company Delhi" class="w-100"></div>
                             <div class="m-text">
                                 <h5>Website Development</h5>
@@ -841,7 +902,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/brand.png"
+                            <div class="m-img"><img loading="lazy" src="image/pfm/brand.png"
                                     alt="Brand identity and branding agency Delhi" class="w-100"></div>
                             <div class="m-text">
                                 <h5>Brand Identity</h5>
@@ -853,7 +914,7 @@
 
                     <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/social-media.png"
+                            <div class="m-img"><img loading="lazy" src="image/pfm/social-media.png"
                                     alt="Social media marketing agency Delhi" class="w-100"></div>
                             <div class="m-text">
                                 <h5>Social Media</h5>
@@ -861,15 +922,15 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-3 col-md-4 col-6">
+                    <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/marketing-4.png" alt="" class="w-100"></div>
+                            <div class="m-img"><img loading="lazy" src="image/pfm/marketing-4.png" alt="" class="w-100"></div>
                             <div class="m-text">
                                 <h5>Brand identity</h5>
                                 <p>Paid ad strategy for Meta & Google</p>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="row d-none d-sm-flex">
                     <div class="col-lg-3 col-md-4 col-sm-6">
@@ -879,7 +940,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/marketing-1.png"
+                            <div class="m-img"><img loading="lazy" src="image/pfm/marketing-1.png"
                                     alt="SEO services in Delhi by MediaX" class="w-100"></div>
                             <div class="m-text">
                                 <h5>Organic Marketing</h5>
@@ -893,7 +954,7 @@
                     </div>
                     <!-- <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/marketing-2.png"
+                            <div class="m-img"><img loading="lazy" src="image/pfm/marketing-2.png"
                                     alt="Lead generation and PPC campaigns Delhi" class="w-100"></div>
                             <div class="m-text">
                                 <h5>Google Ads & Performance Marketing</h5>
@@ -905,7 +966,7 @@
                     </div> -->
                     <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/marketing-3.png"
+                            <div class="m-img"><img loading="lazy" src="image/pfm/marketing-3.png"
                                     alt="Content marketing services Delhi" class="w-100"></div>
                             <div class="m-text">
                                 <h5>Media Solutions</h5>
@@ -917,22 +978,9 @@
                         </div>
                     </div>
 
-                    <!-- <div class="col-lg-3 col-md-4 col-6">
-                        <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/web-programming.png"
-                                    alt="Website development company Delhi" class="w-100"></div>
-                            <div class="m-text">
-                                <h5>Branding & Creative</h5>
-                                <p>Logo, identity, and brand strategy for
-                                    businesses that want to stand out in one of India's most competitive
-                                    markets.
-                                </p>
-                            </div>
-                        </div>
-                    </div> -->
                     <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/brand.png"
+                            <div class="m-img"><img loading="lazy" src="image/pfm/web-programming.png"
                                     alt="Brand identity and branding agency Delhi" class="w-100"></div>
                             <div class="m-text">
                                 <h5>Website</h5>
@@ -944,7 +992,7 @@
                     </div>
                     <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/social-media.png"
+                            <div class="m-img"><img loading="lazy" src="image/pfm/social-media.png"
                                     alt="Social media marketing agency Delhi" class="w-100"></div>
                             <div class="m-text">
                                 <h5> Photography & Videography</h5>
@@ -953,15 +1001,38 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-3 col-md-4 col-6">
+                    <div class="col-lg-3 col-md-4 col-6">
                         <div class="maso-box">
-                            <div class="m-img"><img src="image/pfm/marketing-4.png" alt="" class="w-100"></div>
+                            <div class="m-img"><img loading="lazy" src="image/pfm/brand.png" alt="Website development company Delhi"
+                                    class="w-100"></div>
                             <div class="m-text">
-                                <h5>Social Media</h5>
-                                <p>Marketing Paid ad strategy for Meta & Google</p>
+                                <h5>Branding</h5>
+                                <p>We build entirely new brands from the ground up, naming, visual identity, packaging
+                                    and everything that comes with it.
+                                </p>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="maso-box">
+                            <div class="m-img"><img loading="lazy" src="image/pfm/marketing-4.png" alt="" class="w-100"></div>
+                            <div class="m-text">
+                                <h5>Creative</h5>
+                                <p>We help partners with lookbooks, catalogues, brochures, flyers and more, all handled
+                                    as one holistic creative solution.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <div class="maso-box">
+                            <div class="m-img"><img loading="lazy" src="image/pfm/Outside-of-home.png" alt="" class="w-100"></div>
+                            <div class="m-text">
+                                <h5>Outside Of Home</h5>
+                                <p>Our outdoor affiliations get partners the right BTL activity, from hoardings to
+                                    newspapers and radio placements too.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -972,14 +1043,14 @@
                 <div class="col-lg-4 col-sm-6 px-2 d-block d-sm-none">
                     <div class="vision-box head">
                         <h2>Our Vision & Path</h2>
-                        <img src="image/pfm/vision-arrow.png" alt="MediaX vision and path arrow" class="w-100">
+                        <img loading="lazy" src="image/pfm/vision-arrow.png" alt="MediaX vision and path arrow" class="w-100">
                     </div>
                 </div>
                 <div class="row d-flex d-sm-none">
                     <div class="col-lg-4 col-sm-6 px-2 px-sm-auto">
                         <div class="vision-box type-border">
                             <div class="v-img">
-                                <img src="image/pfm/vision-1.png"
+                                <img loading="lazy" src="image/pfm/vision-1.png"
                                     alt="Empowering Delhi businesses with digital marketing" class="w-100">
                             </div>
                             <div class="v-text">Empowering Delhi Businesses</h4>
@@ -994,7 +1065,7 @@
                     <div class="col-lg-4 col-sm-6 px-2 px-sm-auto">
                         <div class="vision-box type-gray">
                             <div class="v-img">
-                                <img src="image/pfm/vision-2.png"
+                                <img loading="lazy" src="image/pfm/vision-2.png"
                                     alt="Quality digital marketing strategies for Delhi NCR" class="w-100">
                             </div>
                             <div class="v-text">
@@ -1008,7 +1079,7 @@
                     <div class="col-lg-4 col-sm-6 px-2 px-sm-auto">
                         <div class="vision-box type-border">
                             <div class="v-img">
-                                <img src="image/pfm/vision-3.png" alt="Collaborative marketing approach in Delhi"
+                                <img loading="lazy" src="image/pfm/vision-3.png" alt="Collaborative marketing approach in Delhi"
                                     class="w-100">
                             </div>
                             <div class="v-text">
@@ -1021,7 +1092,7 @@
                     <div class="col-lg-4 col-sm-6 px-2 px-sm-auto">
                         <div class="vision-box type-gray">
                             <div class="v-img">
-                                <img src="image/pfm/vision-4.png" alt="Custom marketing strategies for Delhi businesses"
+                                <img loading="lazy" src="image/pfm/vision-4.png" alt="Custom marketing strategies for Delhi businesses"
                                     class="w-100">
                             </div>
                             <div class="v-text">
@@ -1035,7 +1106,7 @@
                     <div class="col-lg-4 col-sm-6 px-2 px-sm-auto">
                         <div class="vision-box type-border">
                             <div class="v-img">
-                                <img src="image/pfm/vision-5.png" alt="Data-driven digital marketing insights"
+                                <img loading="lazy" src="image/pfm/vision-5.png" alt="Data-driven digital marketing insights"
                                     class="w-100">
                             </div>
                             <div class="v-text">
@@ -1051,13 +1122,13 @@
                     <div class="col-lg-4 col-sm-6 d-none d-sm-block">
                         <div class="vision-box head">
                             <h2>Our Vision & Path</h2>
-                            <img src="image/pfm/vision-arrow.png" alt="MediaX vision and path arrow" class="w-100">
+                            <img loading="lazy" src="image/pfm/vision-arrow.png" alt="MediaX vision and path arrow" class="w-100">
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="vision-box type-border">
                             <div class="v-img">
-                                <img src="image/pfm/vision-1.png"
+                                <img loading="lazy" src="image/pfm/vision-1.png"
                                     alt="Empowering Delhi businesses with digital marketing" class="w-100">
                             </div>
                             <div class="v-text">
@@ -1072,7 +1143,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="vision-box type-gray">
                             <div class="v-img">
-                                <img src="image/pfm/vision-2.png"
+                                <img loading="lazy" src="image/pfm/vision-2.png"
                                     alt="Quality digital marketing strategies for Delhi NCR" class="w-100">
                             </div>
                             <div class="v-text">
@@ -1086,7 +1157,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="vision-box type-border">
                             <div class="v-img">
-                                <img src="image/pfm/vision-3.png" alt="Collaborative marketing approach in Delhi"
+                                <img loading="lazy" src="image/pfm/vision-3.png" alt="Collaborative marketing approach in Delhi"
                                     class="w-100">
                             </div>
                             <div class="v-text">
@@ -1100,7 +1171,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="vision-box type-gray">
                             <div class="v-img">
-                                <img src="image/pfm/vision-4.png" alt="Custom marketing strategies for Delhi businesses"
+                                <img loading="lazy" src="image/pfm/vision-4.png" alt="Custom marketing strategies for Delhi businesses"
                                     class="w-100">
                             </div>
                             <div class="v-text">
@@ -1115,7 +1186,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="vision-box type-border">
                             <div class="v-img">
-                                <img src="image/pfm/vision-5.png" alt="Data-driven digital marketing insights"
+                                <img loading="lazy" src="image/pfm/vision-5.png" alt="Data-driven digital marketing insights"
                                     class="w-100">
                             </div>
                             <div class="v-text">
@@ -1146,7 +1217,7 @@
                         <div class="col-4">
                             <div class="d-flex justify-content-end w-100 text-end">
                                 <a href="https://mediax.co.in/project.html" class="">
-                                    <span class="btn-arrow head"><img src="image/main-arrow.webp" alt=""></span>
+                                    <span class="btn-arrow head"><img loading="lazy" src="image/main-arrow.webp" alt=""></span>
                                     <!-- <span class="btn-text">View More</span> -->
                                 </a>
                             </div>
@@ -1163,17 +1234,17 @@
                                 <div class="ouw-h">
                                     <h4>TRAVIANTE</h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project-page/project-20.webp" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project-page/project-20.webp" alt=""></div>
                                 <div class="ouw-text">
                                     <div class="">
                                         <p>Building a Brand That Travels: Traviante</p>
                                     </div>
                                     <div class="d-flex">
                                         <a href="https://mediax.co.in/traviante-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1187,17 +1258,17 @@
                                 <div class="ouw-h">
                                     <h4>BLAC</h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project-page/project-17.jpg" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project-page/project-17.jpg" alt=""></div>
                                 <div class="ouw-text">
                                     <div class="">
                                         <p>Luxury Bathroom Products for Everyday Living</p>
                                     </div>
                                     <div class="d-flex">
                                         <a href="https://mediax.co.in/blac-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1212,17 +1283,17 @@
                                 <div class="ouw-h">
                                     <h4>Steamos</h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project-page/project-18.jpg" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project-page/project-18.jpg" alt=""></div>
                                 <div class="ouw-text">
                                     <div class="">
                                         <p>Bold, Playful Asian Cuisine with Character</p>
                                     </div>
                                     <div class="d-flex">
                                         <a href="https://mediax.co.in/steamos-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1237,17 +1308,17 @@
                                 <div class="ouw-h">
                                     <h4>Silvano</h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project-page/project-16-2.webp" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project-page/project-16-2.webp" alt=""></div>
                                 <div class="ouw-text">
                                     <div class="">
                                         <p>A Premium Men's Leather Accessories Brand</p>
                                     </div>
                                     <div class="d-flex">
                                         <a href="https://mediax.co.in/silvano-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1262,17 +1333,17 @@
                                 <div class="ouw-h">
                                     <h4> Dr. MPS Group of Institutions</h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project-page/project-15.webp" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project-page/project-15.webp" alt=""></div>
                                 <div class="ouw-text">
                                     <div class="">
                                         <p>Brand Overhaul + Outreach for Dr. MPS Group Of Institutions</p>
                                     </div>
                                     <div class="d-flex">
                                         <a href="dmgi-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1286,17 +1357,17 @@
                                 <div class="ouw-h">
                                     <h4>Trimurti</h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project-page/project-14.webp" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project-page/project-14.webp" alt=""></div>
                                 <div class="ouw-text">
                                     <div class="">
                                         <p>A high quality PVC pipes manufacturer</p>
                                     </div>
                                     <div class="d-flex">
                                         <a href="trimurti-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1310,17 +1381,17 @@
                                 <div class="ouw-h">
                                     <h4>Granotone</h4>
                                 </div>
-                                <div class="ouw-img px-1"><img src="image/project-page/project-13.webp" alt=""></div>
+                                <div class="ouw-img px-1"><img loading="lazy" src="image/project-page/project-13.webp" alt=""></div>
                                 <div class="ouw-text">
                                     <div class="">
                                         <p>A+ optimisation for Amazon's best seller art brand</p>
                                     </div>
                                     <div class="d-flex">
                                         <a href="granotone-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1334,17 +1405,17 @@
                                 <div class="ouw-h">
                                     <h4>Alan Truman</h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project-page/project-12.webp" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project-page/project-12.webp" alt=""></div>
                                 <div class="ouw-text">
                                     <div class="">
                                         <p>Video production for Nykaa's leading brand</p>
                                     </div>
                                     <div class="d-flex">
                                         <a href="alan-truman-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1358,17 +1429,17 @@
                                 <div class="ouw-h">
                                     <h4>Round Table India</h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project-page/project-11.webp" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project-page/project-11.webp" alt=""></div>
                                 <div class="ouw-text">
                                     <div class="">
                                         <p>Theme launch video for Round Table India</p>
                                     </div>
                                     <div class="d-flex">
                                         <a href="round-table-india-cast-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1384,22 +1455,22 @@
                                         Mia by Tanishq
                                     </h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project/mia/image.webp" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project/mia/image.webp" alt=""></div>
                                 <div class="ouw-text">
 
                                     <!-- 
                                     <div class="ouw-logo">
-                                        <img src="image/project/Art & Life/Logo.png" class="" alt="">
+                                        <img loading="lazy" src="image/project/Art & Life/Logo.png" class="" alt="">
                                     </div> -->
                                     <div class="">
                                         <p>How Mia by Tanishq reached 955,446 people in 30 days</p>
                                     </div>
                                     <div class="d-flex">
                                         <a href="https://mediax.co.in/mia-by-tanishq-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1415,17 +1486,17 @@
                                         BTW
                                     </h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project/btw/image.webp" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project/btw/image.webp" alt=""></div>
                                 <div class="ouw-text">
                                     <div class="">
                                         <p>How BTW reached 1.75L individuals at .25 CPR</p>
                                     </div>
                                     <div class="d-flex">
                                         <a href="btw-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1439,11 +1510,11 @@
                                 <div class="ouw-h">
                                     <h4>M.R. Warerkar & Associates</h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project/M.R. W/Image.webp" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project/M.R. W/Image.webp" alt=""></div>
                                 <div class="ouw-text">
                                     
                                     <div class="ouw-logo">
-                                        <img src="image/project/M.R. W/logo.png" class="" alt="">
+                                        <img loading="lazy" src="image/project/M.R. W/logo.png" class="" alt="">
                                     </div>
                                     <div class="">
                                         <p>Delivering a gorgeous web experience for India's top Architectural &
@@ -1452,19 +1523,19 @@
                                     <div class="d-flex">
                                         <a href="mrw-case-study.html" class="th-btn-n">
                                             <div class="th-img th-img-1">
-                                                <img src="image/main-arrow.webp" class="w-100" alt="">
+                                                <img loading="lazy" src="image/main-arrow.webp" class="w-100" alt="">
                                             </div>
                                             <div class="th-text">
                                                 Read More
                                             </div>
                                             <div class="th-img th-img-2">
-                                                <img src="image/main-arrow.webp" class="w-100" alt="">
+                                                <img loading="lazy" src="image/main-arrow.webp" class="w-100" alt="">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="">
                                         <a href="mrw-case-study.html" class="th-arrow-btn">
-                                            <span class="btn-arrow"><img src="image/main-arrow.png" alt=""></span>
+                                            <span class="btn-arrow"><img loading="lazy" src="image/main-arrow.png" alt=""></span>
                                             <span class="btn-text">Read More</span>
                                         </a>
                                     </div>
@@ -1478,11 +1549,11 @@
                                 <div class="ouw-h">
                                     <h4> Gaupalam Vedic</h4>
                                 </div>
-                                <div class="ouw-img"><img src="image/project/GV/image.webp" alt=""></div>
+                                <div class="ouw-img"><img loading="lazy" src="image/project/GV/image.webp" alt=""></div>
                                 <div class="ouw-text">
                                     
                                     <div class="ouw-logo">
-                                        <img src="image/project/GV/Logo.png" class="" alt="">
+                                        <img loading="lazy" src="image/project/GV/Logo.png" class="" alt="">
                                     </div>
                                     <div class="">
                                         <p>How we boosted leads and localised reach for an A2 dairy brand in target
@@ -1490,10 +1561,10 @@
                                     </div>
                                     <div class="d-flex">
                                         <a href="gaupalam-vedic-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1516,10 +1587,10 @@
                                     </div>
                                     <div class="d-flex">
                                         <a href="https://mediax.co.in/swm-case-study.html" class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                             <div class="th-text">Read More</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
                                                     alt=""></div>
                                         </a>
                                     </div>
@@ -1531,9 +1602,9 @@
                 </div>
                 <div class="d-flex justify-content-center py-4">
                     <a href="https://mediax.co.in/project.html" class="th-btn-n">
-                        <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100" alt=""></div>
+                        <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100" alt=""></div>
                         <div class="th-text">Explore More</div>
-                        <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100" alt=""></div>
+                        <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100" alt=""></div>
                     </a>
                 </div>
             </div>
@@ -1555,10 +1626,10 @@
                     <div class="col-4">
                         <div class="d-none d-sm-flex justify-content-end gap-3 w-100 align-items-center">
                             <button class="wead-carousel-btn" id="weadPrev" aria-label="Previous">
-                                <img src="image/arrow-left.png" alt="Previous" width="52" height="52">
+                                <img loading="lazy" src="image/arrow-left.png" alt="Previous" width="52" height="52">
                             </button>
                             <button class="wead-carousel-btn" id="weadNext" aria-label="Next">
-                                <img src="image/arrow-right.png" alt="Next" width="52" height="52">
+                                <img loading="lazy" src="image/arrow-right.png" alt="Next" width="52" height="52">
                             </button>
                         </div>
                     </div>
@@ -1585,7 +1656,7 @@
                                         </p>
                                         <div class="d-flex">
                                             <div class="th-btn-n">
-                                                <div class="th-img th-img-1"><img src="image/main-arrow.webp"
+                                                <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp"
                                                         class="w-100" alt=""></div>
                                                 <div class="th-text">Learn More</div>
                                             </div>
@@ -1610,7 +1681,7 @@
                                         </p>
                                         <div class="d-flex">
                                             <div class="th-btn-n">
-                                                <div class="th-img th-img-1"><img src="image/main-arrow.webp"
+                                                <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp"
                                                         class="w-100" alt=""></div>
                                                 <div class="th-text">Learn More</div>
                                             </div>
@@ -1636,7 +1707,7 @@
                                         </p>
                                         <div class="d-flex">
                                             <div class="th-btn-n">
-                                                <div class="th-img th-img-1"><img src="image/main-arrow.webp"
+                                                <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp"
                                                         class="w-100" alt=""></div>
                                                 <div class="th-text">Learn More</div>
                                             </div>
@@ -1661,7 +1732,7 @@
                                         </p>
                                         <div class="d-flex">
                                             <div class="th-btn-n">
-                                                <div class="th-img th-img-1"><img src="image/main-arrow.webp"
+                                                <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp"
                                                         class="w-100" alt=""></div>
                                                 <div class="th-text">Learn More</div>
                                             </div>
@@ -1678,10 +1749,10 @@
                 <!-- Mobile-only arrows below cards -->
                 <div class="d-flex d-sm-none justify-content-center align-items-center gap-4 mt-3">
                     <button class="wead-carousel-btn" id="weadPrevMob" aria-label="Previous">
-                        <img src="image/arrow-left.png" alt="Previous" width="52" height="52">
+                        <img loading="lazy" src="image/arrow-left.png" alt="Previous" width="52" height="52">
                     </button>
                     <button class="wead-carousel-btn" id="weadNextMob" aria-label="Next">
-                        <img src="image/arrow-right.png" alt="Next" width="52" height="52">
+                        <img loading="lazy" src="image/arrow-right.png" alt="Next" width="52" height="52">
                     </button>
                 </div>
 
@@ -1696,14 +1767,14 @@
                     <div class="row">
                         <div class="col-md-6 px-2 p-0 mt-4 mt-md-0">
                             <div class="whths-box">
-                                <!-- <div class="whths-img"><img src="image/pfm/whths-1.png" class="w-100" alt=""></div> -->
+                                <!-- <div class="whths-img"><img loading="lazy" src="image/pfm/whths-1.png" class="w-100" alt=""></div> -->
                                 <div class="whths-body my-3">
-                                    <div class="whths-q"><img src="image/pfm/q-left.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-left.png" class="w-100" alt=""></div>
                                     <div class="whths-title">
                                         <h5>Shraddha Sheth</h5>
                                         <!-- <p>CEO, Dr. MPS 0Institution</p> -->
                                     </div>
-                                    <div class="whths-q"><img src="image/pfm/q-right.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-right.png" class="w-100" alt=""></div>
                                 </div>
                                 <div class="whths-text">
                                     <p>MediaX team is absolutely a hands on . We are start up and it's a continuous
@@ -1716,14 +1787,14 @@
                         </div>
                         <div class="col-md-6 px-2 p-0 mt-4 mt-md-0">
                             <div class="whths-box">
-                                <!-- <div class="whths-img"><img src="image/pfm/whths-2.png" class="w-100" alt=""></div> -->
+                                <!-- <div class="whths-img"><img loading="lazy" src="image/pfm/whths-2.png" class="w-100" alt=""></div> -->
                                 <div class="whths-body my-3">
-                                    <div class="whths-q"><img src="image/pfm/q-left.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-left.png" class="w-100" alt=""></div>
                                     <div class="whths-title">
                                         <h5>Pankhuri Kanwar</h5>
                                         <!-- <p>CEO, Dr. MPS Institution</p> -->
                                     </div>
-                                    <div class="whths-q"><img src="image/pfm/q-right.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-right.png" class="w-100" alt=""></div>
                                 </div>
                                 <div class="whths-text">
                                     <p>Been a good working relationship. Communication systems are strong as a team.
@@ -1735,14 +1806,14 @@
                         </div>
                         <div class="col-md-6 px-2 p-0 mt-4 mt-md-0">
                             <div class="whths-box">
-                                <!-- <div class="whths-img"><img src="image/pfm/whths-1.png" class="w-100" alt=""></div> -->
+                                <!-- <div class="whths-img"><img loading="lazy" src="image/pfm/whths-1.png" class="w-100" alt=""></div> -->
                                 <div class="whths-body my-3">
-                                    <div class="whths-q"><img src="image/pfm/q-left.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-left.png" class="w-100" alt=""></div>
                                     <div class="whths-title">
                                         <h5>Sandhya Handa</h5>
                                         <!-- <p>CEO, Dr. MPS 0Institution</p> -->
                                     </div>
-                                    <div class="whths-q"><img src="image/pfm/q-right.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-right.png" class="w-100" alt=""></div>
                                 </div>
                                 <div class="whths-text">
                                     <p>One thing we love about working with MediaX is how much they care about our
@@ -1754,14 +1825,14 @@
                         </div>
                         <div class="col-md-6 px-2 p-0 mt-4 mt-md-0">
                             <div class="whths-box">
-                                <!-- <div class="whths-img"><img src="image/pfm/whths-2.png" class="w-100" alt=""></div> -->
+                                <!-- <div class="whths-img"><img loading="lazy" src="image/pfm/whths-2.png" class="w-100" alt=""></div> -->
                                 <div class="whths-body my-3">
-                                    <div class="whths-q"><img src="image/pfm/q-left.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-left.png" class="w-100" alt=""></div>
                                     <div class="whths-title">
                                         <h5>Purnima Goenka</h5>
                                         <!-- <p>CEO, Dr. MPS Institution</p> -->
                                     </div>
-                                    <div class="whths-q"><img src="image/pfm/q-right.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-right.png" class="w-100" alt=""></div>
                                 </div>
                                 <div class="whths-text">
                                     <p>MediaX didn't just run ads for us. They helped us through the whole lead
@@ -1774,14 +1845,14 @@
                         </div>
                         <div class="col-md-6 px-2 p-0 mt-4 mt-md-0">
                             <div class="whths-box">
-                                <!-- <div class="whths-img"><img src="../image/pfm/whths-1.png" class="w-100" alt=""></div> -->
+                                <!-- <div class="whths-img"><img loading="lazy" src="../image/pfm/whths-1.png" class="w-100" alt=""></div> -->
                                 <div class="whths-body my-3">
-                                    <div class="whths-q"><img src="image/pfm/q-left.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-left.png" class="w-100" alt=""></div>
                                     <div class="whths-title">
                                         <h5>Inayat Swaj</h5>
                                         <!-- <p>CEO, Dr. MPS 0Institution</p> -->
                                     </div>
-                                    <div class="whths-q"><img src="image/pfm/q-right.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-right.png" class="w-100" alt=""></div>
                                 </div>
                                 <div class="whths-text">
                                     <p>We've tried a few different agencies, but MediaX really impressed us. When we
@@ -1796,14 +1867,14 @@
                         </div>
                         <div class="col-md-6 px-2 p-0 mt-4 mt-md-0">
                             <div class="whths-box">
-                                <!-- <div class="whths-img"><img src="../image/pfm/whths-2.png" class="w-100" alt=""></div> -->
+                                <!-- <div class="whths-img"><img loading="lazy" src="../image/pfm/whths-2.png" class="w-100" alt=""></div> -->
                                 <div class="whths-body my-3">
-                                    <div class="whths-q"><img src="image/pfm/q-left.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-left.png" class="w-100" alt=""></div>
                                     <div class="whths-title">
                                         <h5>Aakash Bhadana</h5>
                                         <!-- <p>CEO, Dr. MPS Institution</p> -->
                                     </div>
-                                    <div class="whths-q"><img src="image/pfm/q-right.png" class="w-100" alt=""></div>
+                                    <div class="whths-q"><img loading="lazy" src="image/pfm/q-right.png" class="w-100" alt=""></div>
                                 </div>
                                 <div class="whths-text">
                                     <p>They are simply amazing! They helped me turn my business around with their
@@ -1817,6 +1888,149 @@
             </div>
         </section>
         <!-- What They Say Section End -->
+
+        <!-- Office Location Section Start -->
+        <section class="testimonial careers" data-aos="fade-up">
+            <div class="container-xxl">
+                <div class="main-h mb-4" data-aos="fade-right">
+                    <h2>
+                        We have our office in
+                    </h2>
+                </div>
+                <div class="testimonial-container" data-aos="fade-up">
+                    <div class="tes-box open" style="width: 100% !important;">
+                        <div class="test-head">
+                            <h4>Delhi</h4>
+                        </div>
+                        <div class="test-content">
+                            <div class="row align-items-end w-100">
+                                <div class="col-lg-7 px-0 px-lg-2">
+                                    <div class="test-map">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.755107876358!2d77.21324467604346!3d28.54707968795512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3dc66b0f37b%3A0x67649ea81637c678!2sMediaX%20%7C%20Creative%20Growth%20Agency!5e0!3m2!1sen!2sin!4v1721022318935!5m2!1sen!2sin"
+                                            width="100%" height="350" style="border:0;" allowfullscreen=""
+                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 mt-3 mt-lg-0 px-0 px-lg-2">
+                                    <h4 class="m-0 fw-bolder mb-3">Delhi</h4>
+                                    <p class="mb-3">1st Floor, 416, Shahpur Jat, Siri Fort, New Delhi, Delhi 110049</p>
+                                    <div class="d-flex">
+                                        <a href="https://maps.app.goo.gl/8g1EvWra1VukXdrz8" target="_blank"
+                                            class="th-btn-n">
+                                            <div class="th-img th-img-1"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
+                                                    alt=""></div>
+                                            <div class="th-text">View on Map</div>
+                                            <div class="th-img th-img-2"><img loading="lazy" src="image/main-arrow.webp" class="w-100"
+                                                    alt=""></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Office Location Section End -->
+
+        <!-- FAQ Section Start -->
+        <section class="faq-section py-5" id="faqs" data-aos="fade-up" style="background: #ffffff;">
+            <div class="container-xxl">
+                <div class="main-h text-center mb-5" data-aos="fade-up">
+                    <span class="section-badge text-center">Frequently Asked Questions</span>
+                    <h2 class="mt-2">Got Questions? <span class="red">We Have Answers</span></h2>
+                    <p class="text-muted mt-2" style="font-family: var(--th-font-1); max-width: 680px; margin: 0 auto; font-size: 17px;">
+                        Everything you need to know about our digital marketing, SEO, performance ads, and branding solutions in Delhi NCR.
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="accordion custom-faq-accordion" id="mediaxFaqAccordion">
+                            <!-- FAQ 1 -->
+                            <div class="accordion-item mb-3" style="border: 1px solid #eaeaea; border-radius: 12px; overflow: hidden; box-shadow: 0 3px 12px rgba(0,0,0,0.03);">
+                                <h3 class="accordion-header" id="faqHeading1" style="text-transform: none; margin: 0;">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="false" aria-controls="faqCollapse1" style="font-family: var(--th-font-1); font-weight: 600; font-size: 1.05rem; padding: 20px 24px; color: #000; background: #fff;">
+                                        What digital marketing services does MediaX provide in Delhi NCR?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#mediaxFaqAccordion">
+                                    <div class="accordion-body" style="font-family: var(--th-font-1); font-size: 16px; line-height: 1.7; color: #4b5563; padding: 0 24px 24px 24px; background: #fff;">
+                                        MediaX delivers complete full-funnel digital marketing services from our Delhi headquarters. This includes Search Engine Optimization (SEO), Google Ads & Performance Marketing (PPC), Social Media Marketing & Content Creation (SMM), Brand Identity & Graphic Design, Website Development & UI/UX, and Out-of-Home (OOH) Advertising across Delhi NCR and pan-India.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FAQ 2 -->
+                            <div class="accordion-item mb-3" style="border: 1px solid #eaeaea; border-radius: 12px; overflow: hidden; box-shadow: 0 3px 12px rgba(0,0,0,0.03);">
+                                <h3 class="accordion-header" id="faqHeading2" style="text-transform: none; margin: 0;">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2" style="font-family: var(--th-font-1); font-weight: 600; font-size: 1.05rem; padding: 20px 24px; color: #000; background: #fff;">
+                                        Where is the MediaX Delhi office located? Can we meet in person?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#mediaxFaqAccordion">
+                                    <div class="accordion-body" style="font-family: var(--th-font-1); font-size: 16px; line-height: 1.7; color: #4b5563; padding: 0 24px 24px 24px; background: #fff;">
+                                        Yes, absolutely! Our Delhi office is located at <strong>1st Floor, 416, Shahpur Jat, Siri Fort, New Delhi, Delhi 110049</strong>. We welcome brand founders, marketing heads, and entrepreneurs for in-person strategy sessions, discovery calls, and project reviews.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FAQ 3 -->
+                            <div class="accordion-item mb-3" style="border: 1px solid #eaeaea; border-radius: 12px; overflow: hidden; box-shadow: 0 3px 12px rgba(0,0,0,0.03);">
+                                <h3 class="accordion-header" id="faqHeading3" style="text-transform: none; margin: 0;">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3" style="font-family: var(--th-font-1); font-weight: 600; font-size: 1.05rem; padding: 20px 24px; color: #000; background: #fff;">
+                                        How long does it take to see measurable results from SEO & Ads?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#mediaxFaqAccordion">
+                                    <div class="accordion-body" style="font-family: var(--th-font-1); font-size: 16px; line-height: 1.7; color: #4b5563; padding: 0 24px 24px 24px; background: #fff;">
+                                        For paid performance advertising (Google Ads & Meta Ads), campaigns begin generating qualified leads and sales within the first 1–2 weeks of launch. For organic SEO, measurable ranking climbs and substantial organic traffic gains typically compound over 3 to 6 months.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FAQ 4 -->
+                            <div class="accordion-item mb-3" style="border: 1px solid #eaeaea; border-radius: 12px; overflow: hidden; box-shadow: 0 3px 12px rgba(0,0,0,0.03);">
+                                <h3 class="accordion-header" id="faqHeading4" style="text-transform: none; margin: 0;">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4" style="font-family: var(--th-font-1); font-weight: 600; font-size: 1.05rem; padding: 20px 24px; color: #000; background: #fff;">
+                                        What makes MediaX different from other digital marketing agencies in Delhi?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#mediaxFaqAccordion">
+                                    <div class="accordion-body" style="font-family: var(--th-font-1); font-size: 16px; line-height: 1.7; color: #4b5563; padding: 0 24px 24px 24px; background: #fff;">
+                                        Unlike traditional agencies that outsource or operate in silos, MediaX operates as an integrated ecosystem of specialised in-house teams—creative studio, performance media buyers, web engineers, and OOH specialists—all under one roof. With 8+ years of experience and 250+ brands served (including Mia by Tanishq, BTW, and Granotone), we focus on real commercial ROI rather than vanity metrics.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FAQ 5 -->
+                            <div class="accordion-item mb-3" style="border: 1px solid #eaeaea; border-radius: 12px; overflow: hidden; box-shadow: 0 3px 12px rgba(0,0,0,0.03);">
+                                <h3 class="accordion-header" id="faqHeading5" style="text-transform: none; margin: 0;">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5" style="font-family: var(--th-font-1); font-weight: 600; font-size: 1.05rem; padding: 20px 24px; color: #000; background: #fff;">
+                                        What is the pricing structure or budget needed to work with MediaX?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#mediaxFaqAccordion">
+                                    <div class="accordion-body" style="font-family: var(--th-font-1); font-size: 16px; line-height: 1.7; color: #4b5563; padding: 0 24px 24px 24px; background: #fff;">
+                                        We design customized engagement plans based on your brand's growth stage, objectives, and channel scope. Whether you are an early-stage startup looking for high-intent lead generation or an established enterprise seeking full-funnel expansion, we have flexible retainer and project-based structures. Book a free consultation to receive a tailored proposal.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- FAQ 6 -->
+                            <div class="accordion-item mb-3" style="border: 1px solid #eaeaea; border-radius: 12px; overflow: hidden; box-shadow: 0 3px 12px rgba(0,0,0,0.03);">
+                                <h3 class="accordion-header" id="faqHeading6" style="text-transform: none; margin: 0;">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse6" aria-expanded="false" aria-controls="faqCollapse6" style="font-family: var(--th-font-1); font-weight: 600; font-size: 1.05rem; padding: 20px 24px; color: #000; background: #fff;">
+                                        How does MediaX track and report campaign ROI?
+                                    </button>
+                                </h3>
+                                <div id="faqCollapse6" class="accordion-collapse collapse" aria-labelledby="faqHeading6" data-bs-parent="#mediaxFaqAccordion">
+                                    <div class="accordion-body" style="font-family: var(--th-font-1); font-size: 16px; line-height: 1.7; color: #4b5563; padding: 0 24px 24px 24px; background: #fff;">
+                                        We provide weekly reporting sprints and 24/7 transparent live dashboards tracking Cost Per Lead (CPL), Customer Acquisition Cost (CAC), Return on Ad Spend (ROAS), keyword rankings, and organic conversion funnels. You will also have a dedicated account manager for direct communication.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ Section End -->
 
         <!-- Collaborate Section Start -->
         <section class="collaborate" id="collaborate" data-aos="fade-up">
@@ -1930,50 +2144,7 @@
         </section>
         <!-- Collaborate Section End -->
 
-        <!-- Office Location Section Start -->
-        <section class="testimonial careers" data-aos="fade-up">
-            <div class="container-xxl">
-                <div class="main-h mb-4" data-aos="fade-right">
-                    <h2>
-                        We have our office in
-                    </h2>
-                </div>
-                <div class="testimonial-container" data-aos="fade-up">
-                    <div class="tes-box open" style="width: 100% !important;">
-                        <div class="test-head">
-                            <h4>Delhi</h4>
-                        </div>
-                        <div class="test-content">
-                            <div class="row align-items-end w-100">
-                                <div class="col-lg-7 px-0 px-lg-2">
-                                    <div class="test-map">
-                                        <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.755107876358!2d77.21324467604346!3d28.54707968795512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3dc66b0f37b%3A0x67649ea81637c678!2sMediaX%20%7C%20Creative%20Growth%20Agency!5e0!3m2!1sen!2sin!4v1721022318935!5m2!1sen!2sin"
-                                            width="100%" height="350" style="border:0;" allowfullscreen=""
-                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 mt-3 mt-lg-0 px-0 px-lg-2">
-                                    <h4 class="m-0 fw-bolder mb-3">Delhi</h4>
-                                    <p class="mb-3">1st Floor, 416, Shahpur Jat, Siri Fort, New Delhi, Delhi 110049</p>
-                                    <div class="d-flex">
-                                        <a href="https://maps.app.goo.gl/8g1EvWra1VukXdrz8" target="_blank"
-                                            class="th-btn-n">
-                                            <div class="th-img th-img-1"><img src="image/main-arrow.webp" class="w-100"
-                                                    alt=""></div>
-                                            <div class="th-text">View on Map</div>
-                                            <div class="th-img th-img-2"><img src="image/main-arrow.webp" class="w-100"
-                                                    alt=""></div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Office Location Section End -->
+
     </main>
     <!-- Main Section End -->
 
